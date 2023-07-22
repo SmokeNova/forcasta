@@ -74,7 +74,7 @@ function App() {
     </>
   )
   } catch(err) {
-    console.log(err);
+    console.clear();
     return (
       <div className='w-screen h-screen flex justify-center items-center'>
         <p className='text-xl font-bold'>Something went wrong</p>
