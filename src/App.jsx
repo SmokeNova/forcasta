@@ -56,7 +56,8 @@ function App() {
 
   return (
     <>
-      <div id="cont" className='my-10 mx-3 md:mx-7'>
+      <div id="cont" className='mb-10 mt-2 mx-3 md:mx-7'>
+        <h1 className='heading tracking-wider mb-5 text-4xl text-center leading-normal font-bold'> FORCASTA </h1>
         <form className='flex justify-center rounded-xl' onSubmit={handleSubmit}>
           <label className='md:w-[30%] rounded-md'>
             <input type="text" placeholder="Search for places..." className="w-full px-3 py-2 border rounded-md border-blue-600 outline-none bg-white text-black" value={city} onChange={(e) => setCity(e.target.value)} />
