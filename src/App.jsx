@@ -6,7 +6,7 @@ import Highlights from './components/Highlights'
 import Forcast from './components/Forcast'
 
 function App() {
-  try {
+
   const [city, setCity] = useState('london');
   const [data, setData] = useState({});
   const [info, setInfo] = useState({});
@@ -73,14 +73,6 @@ function App() {
       </div>
     </>
   )
-  } catch(err) {
-    console.clear();
-    return (
-      <div className='w-screen h-screen flex justify-center items-center'>
-        <p className='text-xl font-bold'>Something went wrong</p>
-      </div>
-    )
-  }
 }
 
 export default App
